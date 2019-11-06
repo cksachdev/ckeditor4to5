@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="robots" content="noindex, nofollow" />
+    <title>Creating mathematical formulas with MathJax</title>
+    <script src="https://cdn.ckeditor.com/4.13.0/standard-all/ckeditor.js"></script>
+  </head>
+
+  <body>
+    <textarea cols="10" id="editor1" name="editor1" rows="10" data-sample-short>
+<p><strong>Hello</strong></p>
+    <p><i>This is testing&nbsp;</i></p>
+    <p><u>underline</u></p>
+    <ol>
+      <li>list&nbsp;</li>
+      <li>new list</li>
+    </ol>
+    <p><span style="font-size:19px;">different font size&nbsp;</span></p>
+    <p><span class="mathText">\\mathrm O\\triangle\\overset{}\\rightleftharpoons</span>&nbsp;</p>
+    <p><span class="mathText">\\sqrt[45]{\\left|\\in adf\\frac{ffa}{fadsf}a\\right|}</span>&nbsp;</p>
+    <p>jkjfa<sub>2</sub></p>
+    <p>up<sup>3</sup></p>
+    <p>images</p>
+    <figure class="image"><img
+        src="/assets/public/content/do_112792779743100928119/artifact/06_quantam_physics_1561618621143.jpg"
+        alt="do_112792779743100928119" data-asset-variable="do_112792779743100928119"></figure></textarea
+    >
+    <script>
+      // CKEDITOR.replace('editor1', {
+      //   extraPlugins: 'mathjax',
+      //   mathJaxLib:
+      //     'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/MathJax.js?config=TeX-AMS_HTML',
+      //   height: 320
+      // });
+
+      // if (CKEDITOR.env.ie && CKEDITOR.env.version == 8) {
+      //   document.getElementById('ie8-warning').className = 'tip alert';
+      // }
+      var mathElements = [
+        'math',
+        'maction',
+        'maligngroup',
+        'malignmark',
+        'menclose',
+        'merror',
+        'mfenced',
+        'mfrac',
+        'mglyph',
+        'mi',
+        'mlabeledtr',
+        'mlongdiv',
+        'mmultiscripts',
+        'mn',
+        'mo',
+        'mover',
+        'mpadded',
+        'mphantom',
+        'mroot',
+        'mrow',
+        'ms',
+        'mscarries',
+        'mscarry',
+        'msgroup',
+        'msline',
+        'mspace',
+        'msqrt',
+        'msrow',
+        'mstack',
+        'mstyle',
+        'msub',
+        'msup',
+        'msubsup',
+        'mtable',
+        'mtd',
+        'mtext',
+        'mtr',
+        'munder',
+        'munderover',
+        'semantics',
+        'annotation',
+        'annotation-xml'
+      ];
+
+      CKEDITOR.plugins.addExternal(
+        'ckeditor_wiris',
+        'https://ckeditor.com/docs/ckeditor4/4.13.0/examples/assets/plugins/ckeditor_wiris/',
+        'plugin.js'
+      );
+
+      CKEDITOR.replace('editor1', {
+        extraPlugins: 'ckeditor_wiris',
+        // For now, MathType is incompatible with CKEditor file upload plugins.
+        removePlugins:
+          'uploadimage,uploadwidget,uploadfile,filetools,filebrowser',
+        height: 320,
+        // Update the ACF configuration with MathML syntax.
+        extraAllowedContent:
+          mathElements.join(' ') +
+          '(*)[*]{*};img[data-mathml,data-custom-editor,role](Wirisformula)'
+      });
+    </script>
+  </body>
+</html>
