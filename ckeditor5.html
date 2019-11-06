@@ -3,18 +3,130 @@
   <head>
     <meta charset="utf-8" />
     <title>CKEditor 5 – Classic editor</title>
-    <script src="https://cdn.ckeditor.com/ckeditor5/15.0.0/classic/ckeditor.js"></script>
+    <script src="https://cdn.ckeditor.com/ckeditor5/12.1.0/classic/ckeditor.js"></script>
   </head>
 
   <body>
     <h1>Classic editor</h1>
-    <textarea name="content" id="editor">
-        &lt;p&gt;This is some sample content.&lt;/p&gt;
-    </textarea>
+    <textarea name="content" id="editor"></textarea>
     <script>
-      ClassicEditor.create(document.querySelector('#editor')).catch(error => {
-        console.error(error);
-      });
+      var editorConfig = {
+        toolbar: [
+          'bold',
+          '|',
+          'italic',
+          '|',
+          'underline',
+          '|',
+          'numberedList',
+          '|',
+          'fontSize',
+          '|',
+          'ChemType',
+          '|',
+          'mathtype',
+          '|',
+          'subscript',
+          '|',
+          'superscript',
+          '|'
+        ],
+        fontSize: {
+          options: [9, 11, 13, 15, 17, 19, 21, 23, 25]
+        },
+        image: {
+          toolbar: [
+            'imageStyle:alignLeft',
+            'imageStyle:full',
+            'imageStyle:alignRight'
+          ],
+          styles: ['full', 'alignLeft', 'alignRight', 'alignCenter']
+        },
+        isReadOnly: false,
+        removePlugins: ['ImageCaption']
+      };
+
+      ClassicEditor.create(document.querySelector('#editor'), {
+        // plugins: this.editorConfig.plugins,
+        // extraPlugins: ['Font'],
+        toolbar: editorConfig.toolbar,
+        fontSize: editorConfig.fontSize,
+        image: editorConfig.image,
+        isReadOnly: editorConfig.isReadOnly,
+        removePlugins: editorConfig.removePlugins
+      })
+        .then(newEditor => {
+          editor = newEditor;
+          editor.setData(`<p>Check Image and alignment</p>
+        <figure class="image image-style-align-left">
+          <img
+            src="http://programs.ntp.net.in/assets/public/content/do_2128677738607247361239/artifact/stock-vector-realistic-green-chalkboard-with-wooden-frame-isolated-on-white-background-rubbed-out-dirty-1323316442_1570773176874.jpg"
+            alt="do_2128677738607247361239" data-asset-variable="do_2128677738607247361239" />
+        </figure>
+        
+        <p>
+          <strong>Lorem Ipsum</strong><span style="color:rgb(0,0,0);background-color:rgb(255,255,255);">
+            is simply dummy text of the printing and typesetting industry. Lorem Ipsum
+            has been the industry\'s standard dummy text ever since the 1500s, when an
+            unknown printer took a galley of type and scrambled it to make a type
+            specimen book. It has survived not only five centuries, but also the leap
+            into electronic typesetting, remaining essentially unchanged. It was
+            popularised in the 1960s with the release of Letraset sheets containing
+            Lorem Ipsum passages, and more recently with desktop publishing software
+            like Aldus PageMaker including versions of Lorem Ipsum.</span>
+        </p>
+        <p><br data-cke-filler="true" /></p>
+        <p>
+          <strong>Lorem Ipsum</strong><span style="color:rgb(0,0,0);background-color:rgb(255,255,255);">
+            is simply dummy text of the printing and typesetting industry. Lorem Ipsum
+            has been the industry\'s standard dummy text ever since the 1500s, when an
+            unknown printer took a galley of type and scrambled it to make a type
+            specimen book. It has survived not only five centuries, but also the leap
+            into electronic typesetting, remaining essentially unchanged. It was
+            popularised in the 1960s with the release of Letraset sheets containing
+            Lorem Ipsum passages, and more recently with desktop publishing software
+            like Aldus PageMaker including versions of Lorem Ipsum.</span>
+        </p>
+        <p>
+          <strong>Lorem Ipsum</strong><span style="color:rgb(0,0,0);background-color:rgb(255,255,255);">
+            is simply dummy text of the printing and typesetting industry. Lorem Ipsum
+            has been the industry\'s standard&nbsp;</span>
+        </p>
+        <figure class="image image-style-align-right">
+          <img
+            src="http://programs.ntp.net.in/assets/public/content/do_21287025496718540812/artifact/screenshot_20191002-013511__01_1571076046042.jpg"
+            alt="do_21287025496718540812" data-asset-variable="do_21287025496718540812" />
+        </figure>
+        
+        <p>
+          <span style="color:rgb(0,0,0);background-color:rgb(255,255,255);">dummy text ever since the 1500s, when an unknown
+            printer took a galley of
+            type and scrambled it to make a type specimen book. It has survived not only
+            five centuries, but also the leap into electronic typesetting, remaining
+            essentially unchanged. It was popularised in the 1960s with the release of
+            Letraset sheets containing Lorem Ipsum passages, and more recently with
+            desktop publishing software like Aldus PageMaker including versions of Lorem
+            Ipsum.</span><strong>Lorem Ipsum</strong><span style="color:rgb(0,0,0);background-color:rgb(255,255,255);">
+            is simply dummy text of the printing and typesetting industry. Lorem Ipsum
+            has been the industry\'s standard dummy text ever since the 1500s, when an
+            unknown printer took a galley of type and scrambled it to make a type
+            specimen book. It has survived not only five centuries, but also the leap
+            into electronic typesetting, remaining essentially unchanged. It was
+            popularised in the 1960s with the release of Letraset sheets containing
+            Lorem Ipsum passages, and more recently with desktop publishing software
+            like Aldus PageMaker including versions of Lorem Ipsum.</span>
+        </p>
+        <figure class="image">
+          <img
+            src="https://ntpproductionall.blob.core.windows.net/ntp-content-production/content/do_31265260262807961612081/artifact/................media-l-24-democracy-and-media-class-vii-assamese_1544507157016.jpg"
+            alt="do_31265260262807961612081" data-asset-variable="do_31265260262807961612081" />
+        </figure>
+        
+        <p><br data-cke-filler="true" /></p>`);
+        })
+        .catch(error => {
+          console.error(error);
+        });
     </script>
   </body>
 </html>

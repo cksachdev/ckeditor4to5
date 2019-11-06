@@ -1,0 +1,60 @@
+{
+  "id": "ekstep.learning.item.read",
+  "ver": "1.0",
+  "ts": "2019-11-06T09:13:04ZZ",
+  "params": {
+    "resmsgid": "6cda3406-30a8-4fd8-a6a8-abca404f7641",
+    "msgid": null,
+    "err": null,
+    "status": "successful",
+    "errmsg": null
+  },
+  "responseCode": "OK",
+  "result": {
+    "assessment_item": {
+      "itemType": "UNIT",
+      "code": "c9d56811-77a3-244d-7442-398533b01103",
+      "subject": "English",
+      "qumlVersion": 0.5,
+      "qlevel": "MEDIUM",
+      "channel": "0126825293972439041",
+      "organisation": ["DPS (Ghaziabad)"],
+      "language": ["English"],
+      "program": "CBSE",
+      "medium": "English",
+      "templateId": "NA",
+      "type": "reference",
+      "editorState": {
+        "solutions": [
+          "<p>&nbsp; <span style=\"font-size:19px;\">Section 1.10.33 of \"de Finibus Bonorum et Malorum\", written by Cicero in 45 BC</span></p><p><br data-cke-filler=\"true\"></p><p><math class=\"wrs_chemistry\" xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfenced><mtable><mtr><mtd><mn>11</mn></mtd><mtd><mn>1</mn></mtd></mtr><mtr><mtd><mn>2</mn></mtd><mtd><mn>1</mn></mtd></mtr><mtr><mtd><mn>3</mn></mtd><mtd><mn>4</mn></mtd></mtr></mtable></mfenced><mo>-</mo><mfenced close=\"]\" open=\"[\"><mtable><mtr><mtd><mn>1</mn></mtd></mtr><mtr><mtd><mn>1</mn><mfenced close=\"]\" open=\"[\"><mtable><mtr><mtd><mn>4</mn></mtd><mtd><mn>5</mn></mtd></mtr></mtable></mfenced></mtd></mtr></mtable></mfenced></math>&nbsp; &nbsp; &nbsp;&nbsp;<math class=\"wrs_chemistry\" xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>∆</mo><mo>=</mo><mo>⇌</mo><mo>→</mo><mi>CHNF</mi></math></p>"
+        ]
+      },
+      "body": "<h3><span style=\"font-size:19px;\">Section 1.10.33 of \"de Finibus Bonorum et Malorum\", written by Cicero in 45 BC</span></h3><p><br data-cke-filler=\"true\"></p><p><span class=\"mathText\">\\begin{pmatrix}11&1\\\\2&1\\\\3&4\\end{pmatrix}-\\begin{bmatrix}1\\\\1\\begin{bmatrix}4&5\\end{bmatrix}\\end{bmatrix}</span>&nbsp; &nbsp; &nbsp;&nbsp;<span class=\"mathText\">\\triangle=\\rightleftharpoons\\rightarrow\\mathrm{CHNF}</span>&nbsp;</p>",
+      "createdOn": "2019-11-06T09:13:01.877+0000",
+      "gradeLevel": ["Class 9"],
+      "appId": "dev.sunbird.portal",
+      "lastUpdatedOn": "2019-11-06T09:13:01.877+0000",
+      "textBookUnitIdentifier": "do_3128006778649477121775",
+      "identifier": "do_212886274718744576119256",
+      "lastStatusChangedOn": "2019-11-06T09:13:01.877+0000",
+      "creator": "Content Creator",
+      "question": "<h3><span style=\"font-size:19px;\">Section 1.10.33 of \"de Finibus Bonorum et Malorum\", written by Cicero in 45 BC</span></h3><p><br data-cke-filler=\"true\"></p><p><math class=\"wrs_chemistry\" xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfenced><mtable><mtr><mtd><mn>11</mn></mtd><mtd><mn>1</mn></mtd></mtr><mtr><mtd><mn>2</mn></mtd><mtd><mn>1</mn></mtd></mtr><mtr><mtd><mn>3</mn></mtd><mtd><mn>4</mn></mtd></mtr></mtable></mfenced><mo>-</mo><mfenced close=\"]\" open=\"[\"><mtable><mtr><mtd><mn>1</mn></mtd></mtr><mtr><mtd><mn>1</mn><mfenced close=\"]\" open=\"[\"><mtable><mtr><mtd><mn>4</mn></mtd><mtd><mn>5</mn></mtd></mtr></mtable></mfenced></mtd></mtr></mtable></mfenced></math>&nbsp; &nbsp; &nbsp;&nbsp;<math class=\"wrs_chemistry\" xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>∆</mo><mo>=</mo><mo>⇌</mo><mo>→</mo><mi>CHNF</mi></math>&nbsp;</p>",
+      "author": "Content Creator",
+      "consumerId": "2eaff3db-cdd1-42e5-a611-bebbf906e6cf",
+      "solutions": [
+        "<p>&nbsp; <span style=\"font-size:19px;\">Section 1.10.33 of \"de Finibus Bonorum et Malorum\", written by Cicero in 45 BC</span></p><p><br data-cke-filler=\"true\"></p><p><span class=\"mathText\">\\begin{pmatrix}11&1\\\\2&1\\\\3&4\\end{pmatrix}-\\begin{bmatrix}1\\\\1\\begin{bmatrix}4&5\\end{bmatrix}\\end{bmatrix}</span>&nbsp; &nbsp; &nbsp;&nbsp;<span class=\"mathText\">\\triangle=\\rightleftharpoons\\rightarrow\\mathrm{CHNF}</span></p>"
+      ],
+      "bloomsLevel": [""],
+      "version": 3,
+      "versionKey": "1573031581877",
+      "framework": "ekstep_ncert_k-12",
+      "createdBy": "0b96635f-fe2b-4ab0-a511-05cfce8faa3f",
+      "name": "vsa_ekstep_ncert_k-12",
+      "topic": ["The Little Girl"],
+      "category": "VSA",
+      "programId": "58a52010-9cae-11e9-8179-f311bc5bf48d",
+      "board": "CBSE",
+      "status": "Review"
+    }
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "id": "ekstep.learning.item.read",
+  "ver": "1.0",
+  "ts": "2019-11-06T09:06:46ZZ",
+  "params": {
+    "resmsgid": "3bd8e5a2-b633-46f3-a681-76ec1d05f10d",
+    "msgid": null,
+    "err": null,
+    "status": "successful",
+    "errmsg": null
+  },
+  "responseCode": "OK",
+  "result": {
+    "assessment_item": {
+      "itemType": "UNIT",
+      "code": "878b8f8c-cdb9-eb3b-e7d8-b2bcda0285ee",
+      "subject": "English",
+      "qumlVersion": 0.5,
+      "qlevel": "MEDIUM",
+      "channel": "0126825293972439041",
+      "organisation": ["DPS (Ghaziabad)"],
+      "language": ["English"],
+      "program": "CBSE",
+      "medium": "English",
+      "templateId": "NA",
+      "type": "reference",
+      "editorState": {
+        "solutions": [
+          "<p><span style=\"color:rgb(0,0,0);background-color:rgb(255,255,255);\"><strong>Contrary to popular belief, Lorem Ipsum is not simply random text.&nbsp;</strong></span></p><p><i><span style=\"color:rgb(0,0,0);background-color:rgb(255,255,255);\">Contrary to popular belief, Lorem Ipsum is not simply random text.&nbsp;</span></i></p><p><span style=\"color:rgb(0,0,0);background-color:rgb(255,255,255);\"><u>Contrary to popular belief, Lorem Ipsum is not simply random text.&nbsp;</u></span></p><p><br data-cke-filler=\"true\"></p>"
+        ]
+      },
+      "body": "<p><span style=\"color:rgb(0,0,0);background-color:rgb(255,255,255);\"><strong>Contrary to popular belief, Lorem Ipsum is not simply random text.&nbsp;</strong></span></p><p><i><span style=\"color:rgb(0,0,0);background-color:rgb(255,255,255);\">Contrary to popular belief, Lorem Ipsum is not simply random text.&nbsp;</span></i></p><p><span style=\"color:rgb(0,0,0);background-color:rgb(255,255,255);\"><u>Contrary to popular belief, Lorem Ipsum is not simply random text.&nbsp;</u></span></p><p><br data-cke-filler=\"true\"></p>",
+      "createdOn": "2019-11-06T08:43:38.970+0000",
+      "gradeLevel": ["Class 9"],
+      "appId": "dev.sunbird.portal",
+      "lastUpdatedOn": "2019-11-06T09:06:05.811+0000",
+      "textBookUnitIdentifier": "do_3128006778649477121775",
+      "identifier": "do_212886260277010432119247",
+      "lastStatusChangedOn": "2019-11-06T08:43:38.970+0000",
+      "creator": "Content Creator",
+      "question": "<p><span style=\"color:rgb(0,0,0);background-color:rgb(255,255,255);\"><strong>Contrary to popular belief, Lorem Ipsum is not simply random text.&nbsp;</strong></span></p><p><i><span style=\"color:rgb(0,0,0);background-color:rgb(255,255,255);\">Contrary to popular belief, Lorem Ipsum is not simply random text.&nbsp;</span></i></p><p><span style=\"color:rgb(0,0,0);background-color:rgb(255,255,255);\"><u>Contrary to popular belief, Lorem Ipsum is not simply random text.&nbsp;</u></span></p><p><br data-cke-filler=\"true\"></p>",
+      "author": "Content Creator",
+      "consumerId": "2eaff3db-cdd1-42e5-a611-bebbf906e6cf",
+      "solutions": [
+        "<p><span style=\"color:rgb(0,0,0);background-color:rgb(255,255,255);\"><strong>Contrary to popular belief, Lorem Ipsum is not simply random text.&nbsp;</strong></span></p><p><i><span style=\"color:rgb(0,0,0);background-color:rgb(255,255,255);\">Contrary to popular belief, Lorem Ipsum is not simply random text.&nbsp;</span></i></p><p><span style=\"color:rgb(0,0,0);background-color:rgb(255,255,255);\"><u>Contrary to popular belief, Lorem Ipsum is not simply random text.&nbsp;</u></span></p><p><br data-cke-filler=\"true\"></p>"
+      ],
+      "bloomsLevel": [""],
+      "version": 3,
+      "versionKey": "1573031165811",
+      "framework": "ekstep_ncert_k-12",
+      "createdBy": "0b96635f-fe2b-4ab0-a511-05cfce8faa3f",
+      "name": "vsa_ekstep_ncert_k-12",
+      "topic": ["The Little Girl"],
+      "template_id": "NA",
+      "category": "VSA",
+      "programId": "58a52010-9cae-11e9-8179-f311bc5bf48d",
+      "board": "CBSE",
+      "status": "Review"
+    }
+  }
+}

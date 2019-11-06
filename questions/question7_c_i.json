@@ -1,0 +1,68 @@
+{
+  "id": "ekstep.learning.item.read",
+  "ver": "1.0",
+  "ts": "2019-11-06T09:25:04ZZ",
+  "params": {
+    "resmsgid": "9e88f08d-8133-4f84-b8ba-6d457ec939f8",
+    "msgid": null,
+    "err": null,
+    "status": "successful",
+    "errmsg": null
+  },
+  "responseCode": "OK",
+  "result": {
+    "assessment_item": {
+      "itemType": "UNIT",
+      "code": "79547e81-0ef8-c6fd-9f94-68682f32eab1",
+      "subject": "English",
+      "qumlVersion": 0.5,
+      "qlevel": "MEDIUM",
+      "channel": "0126825293972439041",
+      "organisation": ["DPS (Ghaziabad)"],
+      "language": ["English"],
+      "program": "CBSE",
+      "media": [
+        {
+          "id": "do_21287025496718540812",
+          "type": "image",
+          "src": "http://programs.ntp.net.in/assets/public/content/do_21287025496718540812/artifact/screenshot_20191002-013511__01_1571076046042.jpg",
+          "baseUrl": "https://programs.diksha.gov.in"
+        },
+        {
+          "id": "do_2128677738607247361239",
+          "type": "image",
+          "src": "http://programs.ntp.net.in/assets/public/content/do_2128677738607247361239/artifact/stock-vector-realistic-green-chalkboard-with-wooden-frame-isolated-on-white-background-rubbed-out-dirty-1323316442_1570773176874.jpg",
+          "baseUrl": "https://programs.diksha.gov.in"
+        }
+      ],
+      "medium": "English",
+      "templateId": "NA",
+      "type": "reference",
+      "editorState": { "solutions": ["<p>sd</p>"] },
+      "body": "<p>&nbsp;<span style=\"color:rgb(0,0,0);background-color:rgb(255,255,255);\">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus in tellus non felis tristique congue vel non ipsum. Fusce et libero rutrum, congue justo id, tempor augue.&nbsp;</span></p><figure class=\"image\"><img src=\"http://programs.ntp.net.in/assets/public/content/do_21287025496718540812/artifact/screenshot_20191002-013511__01_1571076046042.jpg\" alt=\"do_21287025496718540812\" data-asset-variable=\"do_21287025496718540812\"></figure>",
+      "createdOn": "2019-11-06T09:25:02.145+0000",
+      "gradeLevel": ["Class 9"],
+      "appId": "dev.sunbird.portal",
+      "lastUpdatedOn": "2019-11-06T09:25:02.145+0000",
+      "textBookUnitIdentifier": "do_3128006778649477121775",
+      "identifier": "do_212886280619171840119259",
+      "lastStatusChangedOn": "2019-11-06T09:25:02.145+0000",
+      "creator": "Content Creator",
+      "question": "<p>&nbsp;<span style=\"color:rgb(0,0,0);background-color:rgb(255,255,255);\">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus in tellus non felis tristique congue vel non ipsum. Fusce et libero rutrum, congue justo id, tempor augue.&nbsp;</span></p><figure class=\"image\"><img src=\"http://programs.ntp.net.in/assets/public/content/do_21287025496718540812/artifact/screenshot_20191002-013511__01_1571076046042.jpg\" alt=\"do_21287025496718540812\" data-asset-variable=\"do_21287025496718540812\"></figure>",
+      "author": "Content Creator",
+      "consumerId": "2eaff3db-cdd1-42e5-a611-bebbf906e6cf",
+      "solutions": ["<p>sd</p>"],
+      "bloomsLevel": [""],
+      "version": 3,
+      "versionKey": "1573032302145",
+      "framework": "ekstep_ncert_k-12",
+      "createdBy": "0b96635f-fe2b-4ab0-a511-05cfce8faa3f",
+      "name": "vsa_ekstep_ncert_k-12",
+      "topic": ["The Little Girl"],
+      "category": "VSA",
+      "programId": "58a52010-9cae-11e9-8179-f311bc5bf48d",
+      "board": "CBSE",
+      "status": "Review"
+    }
+  }
+}

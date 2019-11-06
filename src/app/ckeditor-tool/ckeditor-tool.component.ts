@@ -1,10 +1,4 @@
-import {
-  Component,
-  OnInit,
-  ViewChild,
-  ElementRef,
-  ChangeDetectorRef
-} from '@angular/core';
+import { Component, OnInit, ChangeDetectorRef } from '@angular/core';
 import { CKINPUT } from './mock-ckeditorData';
 declare var CKEDITOR: any;
 
@@ -15,7 +9,7 @@ declare var CKEDITOR: any;
 })
 export class CkeditorToolComponent implements OnInit {
   public model: any = {
-    editorData: '<p>Hello, world!</p>'
+    editorData: ''
   };
   public instance: any;
   mathElements = [
@@ -62,23 +56,18 @@ export class CkeditorToolComponent implements OnInit {
     'annotation',
     'annotation-xml'
   ];
+
   public ckconfig: any = {
     config: {
       fullPage: true, // Full Page Editing
-      allowedContent: true,
-      // extraPlugins: 'ckeditor_wiris',
-      removePlugins:
-        'uploadimage,uploadwidget,uploadfile,filetools,filebrowser',
-      extraAllowedContent:
-        this.mathElements.join(' ') +
-        '(*)[*]{*};img[data-mathml,data-custom-editor,role](Wirisformula)'
+      allowedContent: true
     },
     isReadonly: false
   };
   constructor(private cd: ChangeDetectorRef) {}
 
   ngOnInit() {
-    this.model.editorData = CKINPUT.result.assessment_item.body;
+    this.model.editorData = CKINPUT.result.assessment_item.question;
   }
 
   public onChange(event: any) {
@@ -88,12 +77,24 @@ export class CkeditorToolComponent implements OnInit {
   public onReady(event: any) {
     this.instance = event;
     console.log('Instance', event);
-    // console.log('CKEDITOR', CKEDITOR);
-    // CKEDITOR.config.extraPlugins = 'ckeditor_wiris';
-    // CKEDITOR.plugins.addExternal(
-    //   'ckeditor_wiris',
-    //   'https://ckeditor.com/docs/ckeditor4/4.13.0/examples/assets/plugins/ckeditor_wiris/',
-    //   'plugin.js'
-    // );
+
+    CKEDITOR.plugins.addExternal(
+      'ckeditor_wiris',
+      'https://ckeditor.com/docs/ckeditor4/4.13.0/examples/assets/plugins/ckeditor_wiris/',
+      'plugin.js'
+    );
+
+    CKEDITOR.replace('editor1', {
+      extraPlugins: 'ckeditor_wiris',
+      // For now, MathType is incompatible with CKEditor file upload plugins.
+      removePlugins:
+        'uploadimage,uploadwidget,uploadfile,filetools,filebrowser',
+      height: 320,
+      // Update the ACF configuration with MathML syntax.
+      extraAllowedContent:
+        this.mathElements.join(' ') +
+        '(*)[*]{*};img[data-mathml,data-custom-editor,role](Wirisformula)'
+    });
+    this.model.editorData = CKINPUT.result.assessment_item.question;
   }
 }

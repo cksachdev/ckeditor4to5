@@ -1,0 +1,60 @@
+{
+  "id": "ekstep.learning.item.read",
+  "ver": "1.0",
+  "ts": "2019-11-06T09:08:22ZZ",
+  "params": {
+    "resmsgid": "18694cd2-242f-4aba-a891-4e68c4d31e11",
+    "msgid": null,
+    "err": null,
+    "status": "successful",
+    "errmsg": null
+  },
+  "responseCode": "OK",
+  "result": {
+    "assessment_item": {
+      "itemType": "UNIT",
+      "code": "e800c320-cf18-4121-7ea8-51f989c67baa",
+      "subject": "English",
+      "qumlVersion": 0.5,
+      "qlevel": "MEDIUM",
+      "channel": "0126825293972439041",
+      "organisation": ["DPS (Ghaziabad)"],
+      "language": ["English"],
+      "program": "CBSE",
+      "medium": "English",
+      "templateId": "NA",
+      "type": "reference",
+      "editorState": {
+        "solutions": [
+          "<ol><li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li><li>Curabitur at risus mollis, maximus sapien sit amet, posuere ante.</li><li>Sed non arcu nec velit volutpat porttitor.</li><li>Maecenas luctus leo interdum, viverra lectus nec, blandit quam.</li><li>Sed quis nibh ut lacus feugiat pharetra ullamcorper eu mauris.</li><li>Donec in est sed felis tincidunt facilisis.</li></ol>"
+        ]
+      },
+      "body": "<ol><li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li><li>Curabitur at risus mollis, maximus sapien sit amet, posuere ante.</li><li>Sed non arcu nec velit volutpat porttitor.</li><li>Maecenas luctus leo interdum, viverra lectus nec, blandit quam.</li><li>Sed quis nibh ut lacus feugiat pharetra ullamcorper eu mauris.</li><li>Donec in est sed felis tincidunt facilisis.</li></ol>",
+      "createdOn": "2019-11-06T09:08:19.883+0000",
+      "gradeLevel": ["Class 9"],
+      "appId": "dev.sunbird.portal",
+      "lastUpdatedOn": "2019-11-06T09:08:19.883+0000",
+      "textBookUnitIdentifier": "do_3128006778649477121775",
+      "identifier": "do_212886272408641536119254",
+      "lastStatusChangedOn": "2019-11-06T09:08:19.883+0000",
+      "creator": "Content Creator",
+      "question": "<ol><li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li><li>Curabitur at risus mollis, maximus sapien sit amet, posuere ante.</li><li>Sed non arcu nec velit volutpat porttitor.</li><li>Maecenas luctus leo interdum, viverra lectus nec, blandit quam.</li><li>Sed quis nibh ut lacus feugiat pharetra ullamcorper eu mauris.</li><li>Donec in est sed felis tincidunt facilisis.</li></ol>",
+      "author": "Content Creator",
+      "consumerId": "2eaff3db-cdd1-42e5-a611-bebbf906e6cf",
+      "solutions": [
+        "<ol><li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li><li>Curabitur at risus mollis, maximus sapien sit amet, posuere ante.</li><li>Sed non arcu nec velit volutpat porttitor.</li><li>Maecenas luctus leo interdum, viverra lectus nec, blandit quam.</li><li>Sed quis nibh ut lacus feugiat pharetra ullamcorper eu mauris.</li><li>Donec in est sed felis tincidunt facilisis.</li></ol>"
+      ],
+      "bloomsLevel": [""],
+      "version": 3,
+      "versionKey": "1573031299883",
+      "framework": "ekstep_ncert_k-12",
+      "createdBy": "0b96635f-fe2b-4ab0-a511-05cfce8faa3f",
+      "name": "vsa_ekstep_ncert_k-12",
+      "topic": ["The Little Girl"],
+      "category": "VSA",
+      "programId": "58a52010-9cae-11e9-8179-f311bc5bf48d",
+      "board": "CBSE",
+      "status": "Review"
+    }
+  }
+}

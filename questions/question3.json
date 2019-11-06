@@ -1,0 +1,60 @@
+{
+  "id": "ekstep.learning.item.read",
+  "ver": "1.0",
+  "ts": "2019-11-06T09:11:05ZZ",
+  "params": {
+    "resmsgid": "dc42550f-f399-4ff6-a2af-7a1b5c779bac",
+    "msgid": null,
+    "err": null,
+    "status": "successful",
+    "errmsg": null
+  },
+  "responseCode": "OK",
+  "result": {
+    "assessment_item": {
+      "itemType": "UNIT",
+      "code": "6048c671-189f-8647-83e2-84a1de5fb026",
+      "subject": "English",
+      "qumlVersion": 0.5,
+      "qlevel": "MEDIUM",
+      "channel": "0126825293972439041",
+      "organisation": ["DPS (Ghaziabad)"],
+      "language": ["English"],
+      "program": "CBSE",
+      "medium": "English",
+      "templateId": "NA",
+      "type": "reference",
+      "editorState": {
+        "solutions": [
+          "<h3><span style=\"font-size:15px;\">The standard Lorem Ipsum passage, used since the 1500s ?</span></h3><h3><span style=\"font-size:17px;\">The standard Lorem Ipsum passage, used since the 1500s ?</span></h3><p><span style=\"font-size:19px;\">The standard Lorem Ipsum passage, used since the 1500s ?</span></p><p><span style=\"font-size:21px;\">The standard Lorem Ipsum passage, used since the 1500s ?</span></p><p><span style=\"font-size:23px;\">The standard Lorem Ipsum passage, used since the 1500s ?</span></p><p><span style=\"font-size:25px;\">The standard Lorem Ipsum passage, used since the 1500s ?</span></p><p><br data-cke-filler=\"true\"></p>"
+        ]
+      },
+      "body": "<h3><span style=\"font-size:15px;\">The standard Lorem Ipsum passage, used since the 1500s ?</span></h3><h3><span style=\"font-size:17px;\">The standard Lorem Ipsum passage, used since the 1500s ?</span></h3><p><span style=\"font-size:19px;\">The standard Lorem Ipsum passage, used since the 1500s ?</span></p><p><span style=\"font-size:21px;\">The standard Lorem Ipsum passage, used since the 1500s ?</span></p><p><span style=\"font-size:23px;\">The standard Lorem Ipsum passage, used since the 1500s ?</span></p><p><span style=\"font-size:25px;\">The standard Lorem Ipsum passage, used since the 1500s ?</span></p><p><br data-cke-filler=\"true\"></p>",
+      "createdOn": "2019-11-06T09:11:02.865+0000",
+      "gradeLevel": ["Class 9"],
+      "appId": "dev.sunbird.portal",
+      "lastUpdatedOn": "2019-11-06T09:11:02.865+0000",
+      "textBookUnitIdentifier": "do_3128006778649477121775",
+      "identifier": "do_212886273743790080119255",
+      "lastStatusChangedOn": "2019-11-06T09:11:02.865+0000",
+      "creator": "Content Creator",
+      "question": "<h3><span style=\"font-size:15px;\">The standard Lorem Ipsum passage, used since the 1500s ?</span></h3><h3><span style=\"font-size:17px;\">The standard Lorem Ipsum passage, used since the 1500s ?</span></h3><p><span style=\"font-size:19px;\">The standard Lorem Ipsum passage, used since the 1500s ?</span></p><p><span style=\"font-size:21px;\">The standard Lorem Ipsum passage, used since the 1500s ?</span></p><p><span style=\"font-size:23px;\">The standard Lorem Ipsum passage, used since the 1500s ?</span></p><p><span style=\"font-size:25px;\">The standard Lorem Ipsum passage, used since the 1500s ?</span></p><p><br data-cke-filler=\"true\"></p>",
+      "author": "Content Creator",
+      "consumerId": "2eaff3db-cdd1-42e5-a611-bebbf906e6cf",
+      "solutions": [
+        "<h3><span style=\"font-size:15px;\">The standard Lorem Ipsum passage, used since the 1500s ?</span></h3><h3><span style=\"font-size:17px;\">The standard Lorem Ipsum passage, used since the 1500s ?</span></h3><p><span style=\"font-size:19px;\">The standard Lorem Ipsum passage, used since the 1500s ?</span></p><p><span style=\"font-size:21px;\">The standard Lorem Ipsum passage, used since the 1500s ?</span></p><p><span style=\"font-size:23px;\">The standard Lorem Ipsum passage, used since the 1500s ?</span></p><p><span style=\"font-size:25px;\">The standard Lorem Ipsum passage, used since the 1500s ?</span></p><p><br data-cke-filler=\"true\"></p>"
+      ],
+      "bloomsLevel": [""],
+      "version": 3,
+      "versionKey": "1573031462865",
+      "framework": "ekstep_ncert_k-12",
+      "createdBy": "0b96635f-fe2b-4ab0-a511-05cfce8faa3f",
+      "name": "vsa_ekstep_ncert_k-12",
+      "topic": ["The Little Girl"],
+      "category": "VSA",
+      "programId": "58a52010-9cae-11e9-8179-f311bc5bf48d",
+      "board": "CBSE",
+      "status": "Review"
+    }
+  }
+}
