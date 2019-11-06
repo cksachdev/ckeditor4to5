@@ -1,0 +1,123 @@
+{
+  "id": "ekstep.learning.item.read",
+  "ver": "1.0",
+  "ts": "2019-11-05T10:34:53ZZ",
+  "params": {
+    "resmsgid": "3c1cbb7f-6e18-4ef1-bea8-ed783ab882a0",
+    "msgid": null,
+    "err": null,
+    "status": "successful",
+    "errmsg": null
+  },
+  "responseCode": "OK",
+  "result": {
+    "assessment_item": {
+      "itemType": "UNIT",
+      "code": "529ab81b-5a72-5dd0-ab87-b77bb3a1ce53",
+      "subject": "English",
+      "qumlVersion": 0.5,
+      "qlevel": "MEDIUM",
+      "channel": "0126825293972439041",
+      "organisation": [
+        "DPS (Ghaziabad)"
+      ],
+      "responseDeclaration": {
+        "responseValue": {
+          "cardinality": "single",
+          "type": "integer",
+          "correct_response": {
+            "value": "3"
+          }
+        }
+      },
+      "language": [
+        "English"
+      ],
+      "program": "CBSE",
+      "media": [
+        {
+          "id": "do_2128677738607247361239",
+          "type": "image",
+          "src": "/assets/public/content/do_2128677738607247361239/artifact/stock-vector-realistic-green-chalkboard-with-wooden-frame-isolated-on-white-background-rubbed-out-dirty-1323316442_1570773176874.jpg",
+          "baseUrl": "https://programs.diksha.gov.in"
+        }
+      ],
+      "medium": "English",
+      "templateId": "mcq-horizontal",
+      "type": "mcq",
+      "editorState": null,
+      "body": "<div class='mcq-horizontal cheveron-helper'><div class='mcq-title'><p>MCQ test 2&nbsp;</p></div><i class='chevron down icon'></i><div class='mcq-options'><div data-simple-choice-interaction data-response-variable='responseValue' value=0 class='mcq-option'><p>solution&nbsp;</p></div><div data-simple-choice-interaction data-response-variable='responseValue' value=1 class='mcq-option'><p>solution&nbsp;</p></div><div data-simple-choice-interaction data-response-variable='responseValue' value=2 class='mcq-option'>&nbsp;<figure class=\"image\"><img src=\"/assets/public/content/do_2128677738607247361239/artifact/stock-vector-realistic-green-chalkboard-with-wooden-frame-isolated-on-white-background-rubbed-out-dirty-1323316442_1570773176874.jpg\" alt=\"do_2128677738607247361239\" data-asset-variable=\"do_2128677738607247361239\"></figure></div><div data-simple-choice-interaction data-response-variable='responseValue' value=3 class='mcq-option'><p>&nbsp;<span class=\"mathText\">\\sqrt{30+3_1}</span></p></div></div></div>",
+      "createdOn": "2019-11-05T10:28:59.238+0000",
+      "gradeLevel": [
+        "Class 9"
+      ],
+      "appId": "dev.sunbird.portal",
+      "options": [
+        {
+          "answer": false,
+          "value": {
+            "type": "text",
+            "body": "<p>solution&nbsp;</p>",
+            "resvalue": 0,
+            "resindex": 0
+          }
+        },
+        {
+          "answer": false,
+          "value": {
+            "type": "text",
+            "body": "<p>solution&nbsp;</p>",
+            "resvalue": 1,
+            "resindex": 1
+          }
+        },
+        {
+          "answer": false,
+          "value": {
+            "type": "text",
+            "body": "&nbsp;<figure class=\"image\"><img src=\"/assets/public/content/do_2128677738607247361239/artifact/stock-vector-realistic-green-chalkboard-with-wooden-frame-isolated-on-white-background-rubbed-out-dirty-1323316442_1570773176874.jpg\" alt=\"do_2128677738607247361239\" data-asset-variable=\"do_2128677738607247361239\"></figure>",
+            "resvalue": 2,
+            "resindex": 2
+          }
+        },
+        {
+          "answer": true,
+          "value": {
+            "type": "text",
+            "body": "<p>&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mn>30</mn><mo>+</mo><msub><mn>3</mn><mn>1</mn></msub></msqrt></math></p>",
+            "resvalue": 3,
+            "resindex": 3
+          }
+        }
+      ],
+      "lastUpdatedOn": "2019-11-05T10:31:03.956+0000",
+      "textBookUnitIdentifier": "do_3128006778648412161774",
+      "identifier": "do_21288560426384588812715",
+      "lastStatusChangedOn": "2019-11-05T10:31:03.948+0000",
+      "creator": "Content Creator",
+      "question": "<p>MCQ test 2&nbsp;</p>",
+      "author": "Content Creator",
+      "consumerId": "2eaff3db-cdd1-42e5-a611-bebbf906e6cf",
+      "solutions": null,
+      "learningOutcome": [
+        "critically analyze the present versus future  school system"
+      ],
+      "maxScore": 1,
+      "bloomsLevel": [
+        "Comprehension (Understanding)"
+      ],
+      "version": 3,
+      "versionKey": "1572949863956",
+      "framework": "ekstep_ncert_k-12",
+      "createdBy": "0b96635f-fe2b-4ab0-a511-05cfce8faa3f",
+      "name": "mcq_ekstep_ncert_k-12",
+      "topic": [
+        "The Fun They Had"
+      ],
+      "category": "MCQ",
+      "programId": "58a52010-9cae-11e9-8179-f311bc5bf48d",
+      "board": "CBSE",
+      "status": "Live"
+    }
+  }
+}

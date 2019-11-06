@@ -1,0 +1,74 @@
+{
+  "id": "ekstep.learning.item.read",
+  "ver": "1.0",
+  "ts": "2019-11-05T09:40:52ZZ",
+  "params": {
+    "resmsgid": "7fd5dc3d-ef7f-48d8-9231-05db62ba8b12",
+    "msgid": null,
+    "err": null,
+    "status": "successful",
+    "errmsg": null
+  },
+  "responseCode": "OK",
+  "result": {
+    "assessment_item": {
+      "itemType": "UNIT",
+      "code": "c28b88c5-b66e-abd2-734d-b72825d2eb2e",
+      "subject": "English",
+      "qumlVersion": 0.5,
+      "qlevel": "MEDIUM",
+      "channel": "0126825293972439041",
+      "organisation": [
+        "DPS (Ghaziabad)"
+      ],
+      "language": [
+        "English"
+      ],
+      "program": "CBSE",
+      "medium": "English",
+      "templateId": "NA",
+      "type": "reference",
+      "editorState": {
+        "solutions": [
+          "<p>subscript and superscript</p>"
+        ]
+      },
+      "body": "<p>Subscript</p><p>33<sub>2</sub></p><p>Superscript</p><p>33<sup>2</sup></p>",
+      "createdOn": "2019-11-05T07:22:49.368+0000",
+      "gradeLevel": [
+        "Class 9"
+      ],
+      "appId": "dev.sunbird.portal",
+      "lastUpdatedOn": "2019-11-05T09:28:03.710+0000",
+      "textBookUnitIdentifier": "do_3128006778648412161774",
+      "identifier": "do_21288551276027084812636",
+      "lastStatusChangedOn": "2019-11-05T09:28:03.702+0000",
+      "creator": "Content Creator",
+      "question": "<p>Subscript</p><p>33<sub>2</sub></p><p>Superscript</p><p>33<sup>2</sup></p>",
+      "author": "Content Creator",
+      "consumerId": "2eaff3db-cdd1-42e5-a611-bebbf906e6cf",
+      "solutions": [
+        "<p>subscript and superscript</p>"
+      ],
+      "learningOutcome": [
+        "critically analyze the present versus future  school system"
+      ],
+      "bloomsLevel": [
+        "Knowledge (Remembering)"
+      ],
+      "version": 3,
+      "versionKey": "1572946083710",
+      "framework": "ekstep_ncert_k-12",
+      "createdBy": "0b96635f-fe2b-4ab0-a511-05cfce8faa3f",
+      "name": "sa_ekstep_ncert_k-12",
+      "topic": [
+        "The Fun They Had"
+      ],
+      "template_id": "NA",
+      "category": "SA",
+      "programId": "58a52010-9cae-11e9-8179-f311bc5bf48d",
+      "board": "CBSE",
+      "status": "Live"
+    }
+  }
+}
