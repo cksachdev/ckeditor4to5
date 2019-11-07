@@ -1,14 +1,6 @@
-<ckeditor
-  id="editor1"
-  [(ngModel)]="model.editorData"
-  (change)="onChange($event)"
-  [readOnly]="ckconfig.isReadonly"
-  [config]="ckconfig.config"
-  (ready)="onReady($event)"
->
-</ckeditor>
+<ckeditor [(ngModel)]="model.editorData" [config]="ckconfig"> </ckeditor>
 <!-- [config]="ckconfig"  -->
 
 <hr />
 
-<!-- <div [innerHTML]="model.editorData"></div> -->
+<div [innerHTML]="model.editorData"></div>
