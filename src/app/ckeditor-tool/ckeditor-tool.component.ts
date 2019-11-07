@@ -6,7 +6,8 @@ declare var CKEDITOR: any;
 @Component({
   selector: 'app-ckeditor-tool',
   templateUrl: './ckeditor-tool.component.html',
-  styleUrls: ['./ckeditor-tool.component.scss']
+  styleUrls: ['./ckeditor-tool.component.scss'],
+  providers: [CkeditorConfigService]
 })
 export class CkeditorToolComponent implements OnInit {
   public model: any = {

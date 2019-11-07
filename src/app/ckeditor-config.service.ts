@@ -1,13 +1,11 @@
 import { Injectable } from '@angular/core';
 
-@Injectable({
-  providedIn: 'root'
-})
+@Injectable()
 export class CkeditorConfigService {
   constructor() {}
   public getConfig() {
     return {
-      customConfig: '/assets/js/ckeditor/ckeditor_config.js'
+      customConfig: '/assets/js/ckeditor/config.js'
     };
   }
 }
