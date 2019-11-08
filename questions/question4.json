@@ -1,9 +1,9 @@
 {
   "id": "ekstep.learning.item.read",
   "ver": "1.0",
-  "ts": "2019-11-06T09:13:04ZZ",
+  "ts": "2019-11-08T10:33:03ZZ",
   "params": {
-    "resmsgid": "6cda3406-30a8-4fd8-a6a8-abca404f7641",
+    "resmsgid": "c8e2972d-23e9-4b4b-a291-88dcad79c919",
     "msgid": null,
     "err": null,
     "status": "successful",
@@ -13,7 +13,7 @@
   "result": {
     "assessment_item": {
       "itemType": "UNIT",
-      "code": "c9d56811-77a3-244d-7442-398533b01103",
+      "code": "5917c90b-e295-1c53-502c-9a3a291060fa",
       "subject": "English",
       "qumlVersion": 0.5,
       "qlevel": "MEDIUM",
@@ -24,33 +24,28 @@
       "medium": "English",
       "templateId": "NA",
       "type": "reference",
-      "editorState": {
-        "solutions": [
-          "<p>&nbsp; <span style=\"font-size:19px;\">Section 1.10.33 of \"de Finibus Bonorum et Malorum\", written by Cicero in 45 BC</span></p><p><br data-cke-filler=\"true\"></p><p><math class=\"wrs_chemistry\" xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfenced><mtable><mtr><mtd><mn>11</mn></mtd><mtd><mn>1</mn></mtd></mtr><mtr><mtd><mn>2</mn></mtd><mtd><mn>1</mn></mtd></mtr><mtr><mtd><mn>3</mn></mtd><mtd><mn>4</mn></mtd></mtr></mtable></mfenced><mo>-</mo><mfenced close=\"]\" open=\"[\"><mtable><mtr><mtd><mn>1</mn></mtd></mtr><mtr><mtd><mn>1</mn><mfenced close=\"]\" open=\"[\"><mtable><mtr><mtd><mn>4</mn></mtd><mtd><mn>5</mn></mtd></mtr></mtable></mfenced></mtd></mtr></mtable></mfenced></math>&nbsp; &nbsp; &nbsp;&nbsp;<math class=\"wrs_chemistry\" xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>∆</mo><mo>=</mo><mo>⇌</mo><mo>→</mo><mi>CHNF</mi></math></p>"
-        ]
-      },
-      "body": "<h3><span style=\"font-size:19px;\">Section 1.10.33 of \"de Finibus Bonorum et Malorum\", written by Cicero in 45 BC</span></h3><p><br data-cke-filler=\"true\"></p><p><span class=\"mathText\">\\begin{pmatrix}11&1\\\\2&1\\\\3&4\\end{pmatrix}-\\begin{bmatrix}1\\\\1\\begin{bmatrix}4&5\\end{bmatrix}\\end{bmatrix}</span>&nbsp; &nbsp; &nbsp;&nbsp;<span class=\"mathText\">\\triangle=\\rightleftharpoons\\rightarrow\\mathrm{CHNF}</span>&nbsp;</p>",
+      "editorState": { "solutions": ["<p>Hello &nbsp;&nbsp;</p>"] },
+      "body": "<p>Chemistry formula ::&nbsp;<br><span class=\"mathText\">1+1\\times2\\ast3-4\\;=\\;?</span>&nbsp;</p><p><span class=\"mathText\">\\boxed8\\left\\langle\\left|1\\right|\\right\\rangle</span>&nbsp; &nbsp; &nbsp;<span class=\"mathText\">\\textstyle\\overset{1\\overset1{\\underset1{\\prod2}}}{\\underset1{\\sum1}}</span>&nbsp;</p>",
       "createdOn": "2019-11-06T09:13:01.877+0000",
       "gradeLevel": ["Class 9"],
       "appId": "dev.sunbird.portal",
-      "lastUpdatedOn": "2019-11-06T09:13:01.877+0000",
+      "lastUpdatedOn": "2019-11-08T10:32:58.953+0000",
       "textBookUnitIdentifier": "do_3128006778649477121775",
       "identifier": "do_212886274718744576119256",
       "lastStatusChangedOn": "2019-11-06T09:13:01.877+0000",
       "creator": "Content Creator",
-      "question": "<h3><span style=\"font-size:19px;\">Section 1.10.33 of \"de Finibus Bonorum et Malorum\", written by Cicero in 45 BC</span></h3><p><br data-cke-filler=\"true\"></p><p><math class=\"wrs_chemistry\" xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfenced><mtable><mtr><mtd><mn>11</mn></mtd><mtd><mn>1</mn></mtd></mtr><mtr><mtd><mn>2</mn></mtd><mtd><mn>1</mn></mtd></mtr><mtr><mtd><mn>3</mn></mtd><mtd><mn>4</mn></mtd></mtr></mtable></mfenced><mo>-</mo><mfenced close=\"]\" open=\"[\"><mtable><mtr><mtd><mn>1</mn></mtd></mtr><mtr><mtd><mn>1</mn><mfenced close=\"]\" open=\"[\"><mtable><mtr><mtd><mn>4</mn></mtd><mtd><mn>5</mn></mtd></mtr></mtable></mfenced></mtd></mtr></mtable></mfenced></math>&nbsp; &nbsp; &nbsp;&nbsp;<math class=\"wrs_chemistry\" xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>∆</mo><mo>=</mo><mo>⇌</mo><mo>→</mo><mi>CHNF</mi></math>&nbsp;</p>",
+      "question": "<p>Chemistry formula ::&nbsp;<br><math class=\"wrs_chemistry\" xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>1</mn><mo>+</mo><mn>1</mn><mo>×</mo><mn>2</mn><mo>*</mo><mn>3</mn><mo>-</mo><mn>4</mn><mo>&nbsp;</mo><mo>=</mo><mo>&nbsp;</mo><mo>?</mo></math>&nbsp;</p><p><math class=\"wrs_chemistry\" xmlns=\"http://www.w3.org/1998/Math/MathML\"><menclose notation=\"circle\"><mn>8</mn></menclose><mfenced close=\"&gt;\" open=\"&lt;\"><mfenced close=\"|\" open=\"|\"><mn>1</mn></mfenced></mfenced></math>&nbsp; &nbsp; &nbsp;<math class=\"wrs_chemistry\" xmlns=\"http://www.w3.org/1998/Math/MathML\"><mstyle displaystyle=\"false\"><munderover><mrow><mo>∑</mo><mn>1</mn></mrow><mn>1</mn><mrow><mn>1</mn><munderover><mrow><mo>∏</mo><mn>2</mn></mrow><mn>1</mn><mn>1</mn></munderover></mrow></munderover></mstyle></math>&nbsp;</p>",
       "author": "Content Creator",
       "consumerId": "2eaff3db-cdd1-42e5-a611-bebbf906e6cf",
-      "solutions": [
-        "<p>&nbsp; <span style=\"font-size:19px;\">Section 1.10.33 of \"de Finibus Bonorum et Malorum\", written by Cicero in 45 BC</span></p><p><br data-cke-filler=\"true\"></p><p><span class=\"mathText\">\\begin{pmatrix}11&1\\\\2&1\\\\3&4\\end{pmatrix}-\\begin{bmatrix}1\\\\1\\begin{bmatrix}4&5\\end{bmatrix}\\end{bmatrix}</span>&nbsp; &nbsp; &nbsp;&nbsp;<span class=\"mathText\">\\triangle=\\rightleftharpoons\\rightarrow\\mathrm{CHNF}</span></p>"
-      ],
+      "solutions": ["<p>Hello &nbsp;&nbsp;</p>"],
       "bloomsLevel": [""],
       "version": 3,
-      "versionKey": "1573031581877",
+      "versionKey": "1573209178953",
       "framework": "ekstep_ncert_k-12",
       "createdBy": "0b96635f-fe2b-4ab0-a511-05cfce8faa3f",
       "name": "vsa_ekstep_ncert_k-12",
       "topic": ["The Little Girl"],
+      "template_id": "NA",
       "category": "VSA",
       "programId": "58a52010-9cae-11e9-8179-f311bc5bf48d",
       "board": "CBSE",

@@ -1,9 +1,9 @@
 {
   "id": "ekstep.learning.item.read",
   "ver": "1.0",
-  "ts": "2019-11-06T09:22:09ZZ",
+  "ts": "2019-11-08T10:27:12ZZ",
   "params": {
-    "resmsgid": "217fc83e-d8e2-472e-badf-3ffc9a0ecea8",
+    "resmsgid": "3304f8e7-e1db-4f16-a90a-ca11fc98cd96",
     "msgid": null,
     "err": null,
     "status": "successful",
@@ -13,7 +13,7 @@
   "result": {
     "assessment_item": {
       "itemType": "UNIT",
-      "code": "aff87b45-ab2b-e66e-9057-926d0027dfd4",
+      "code": "320c4ef1-a56f-bded-2e4d-24e020e12592",
       "subject": "English",
       "qumlVersion": 0.5,
       "qlevel": "MEDIUM",
@@ -26,31 +26,32 @@
       "type": "reference",
       "editorState": {
         "solutions": [
-          "<p>This text contains <sub>subscript</sub> text.</p><p><span style=\"color:rgb(0,0,0);\">This text contains </span><sup>superscript</sup><span style=\"color:rgb(0,0,0);\"> text.</span></p>"
+          "<p>This text contains <sub>subscript</sub> text.</p><p>This text contains <sup>superscript</sup> text.</p>"
         ]
       },
-      "body": "<p>This text contains <sub>subscript</sub> text.</p><p><span style=\"color:rgb(0,0,0);\">This text contains </span><sup>superscript</sup><span style=\"color:rgb(0,0,0);\"> text.</span></p>",
+      "body": "<p>This text contains <sub>subscript</sub> text.</p><p>This text contains <sup>superscript</sup> text.</p>",
       "createdOn": "2019-11-06T09:22:07.040+0000",
       "gradeLevel": ["Class 9"],
       "appId": "dev.sunbird.portal",
-      "lastUpdatedOn": "2019-11-06T09:22:07.040+0000",
+      "lastUpdatedOn": "2019-11-08T10:27:08.296+0000",
       "textBookUnitIdentifier": "do_3128006778649477121775",
       "identifier": "do_212886279184719872119258",
       "lastStatusChangedOn": "2019-11-06T09:22:07.040+0000",
       "creator": "Content Creator",
-      "question": "<p>This text contains <sub>subscript</sub> text.</p><p><span style=\"color:rgb(0,0,0);\">This text contains </span><sup>superscript</sup><span style=\"color:rgb(0,0,0);\"> text.</span></p>",
+      "question": "<p>This text contains <sub>subscript</sub> text.</p><p>This text contains <sup>superscript</sup> text.</p>",
       "author": "Content Creator",
       "consumerId": "2eaff3db-cdd1-42e5-a611-bebbf906e6cf",
       "solutions": [
-        "<p>This text contains <sub>subscript</sub> text.</p><p><span style=\"color:rgb(0,0,0);\">This text contains </span><sup>superscript</sup><span style=\"color:rgb(0,0,0);\"> text.</span></p>"
+        "<p>This text contains <sub>subscript</sub> text.</p><p>This text contains <sup>superscript</sup> text.</p>"
       ],
       "bloomsLevel": [""],
       "version": 3,
-      "versionKey": "1573032127040",
+      "versionKey": "1573208828296",
       "framework": "ekstep_ncert_k-12",
       "createdBy": "0b96635f-fe2b-4ab0-a511-05cfce8faa3f",
       "name": "vsa_ekstep_ncert_k-12",
       "topic": ["The Little Girl"],
+      "template_id": "NA",
       "category": "VSA",
       "programId": "58a52010-9cae-11e9-8179-f311bc5bf48d",
       "board": "CBSE",

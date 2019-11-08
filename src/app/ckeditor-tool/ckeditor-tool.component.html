@@ -1,6 +1,14 @@
-<ckeditor [(ngModel)]="model.editorData" [config]="ckconfig"> </ckeditor>
+<ckeditor
+  [(ngModel)]="editorData"
+  [config]="ckconfig"
+  (change)="onChange($event)"
+  (ready)="onReady($event)"
+  (editorChange)="onEditorChange($event)"
+  (contentDom)="onContentDom($event)"
+>
+</ckeditor>
 <!-- [config]="ckconfig"  -->
 
 <hr />
 
-<div [innerHTML]="model.editorData"></div>
+<div [innerHtml]="editorData | safe: 'html'"></div>

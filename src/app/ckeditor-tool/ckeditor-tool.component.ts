@@ -1,7 +1,6 @@
 import { Component, OnInit, ChangeDetectorRef } from '@angular/core';
 import { CKINPUT } from './mock-ckeditorData';
 import { CkeditorConfigService } from '../ckeditor-config.service';
-declare var CKEDITOR: any;
 
 @Component({
   selector: 'app-ckeditor-tool',
@@ -10,20 +9,34 @@ declare var CKEDITOR: any;
   providers: [CkeditorConfigService]
 })
 export class CkeditorToolComponent implements OnInit {
-  public model: any = {
-    editorData: ''
-  };
+  public editorData: any;
   public instance: any;
 
   public ckconfig: any;
   constructor(
-    private cd: ChangeDetectorRef,
-    private ckService: CkeditorConfigService
+    private ckService: CkeditorConfigService,
+    private cd: ChangeDetectorRef
   ) {
     this.ckconfig = this.ckService.getConfig();
   }
 
   ngOnInit() {
-    this.model.editorData = CKINPUT.result.assessment_item.question;
+    this.editorData = CKINPUT.result.assessment_item.question;
+  }
+
+  onChange(event: any) {
+    console.log('onChange ::', event);
+  }
+  onEditorChange(event: any) {
+    console.log('onEditorChange ::', event);
+  }
+  onContentDom(event: any) {
+    console.log('onContentDom ::', event);
+    // this.editorData = CKINPUT.result.assessment_item.question;
+    // this.cd.detectChanges();
+  }
+  onReady(event: any) {
+    console.log('onReady ::', event);
+    // this.cd.detectChanges();
   }
 }

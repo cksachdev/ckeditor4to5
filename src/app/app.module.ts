@@ -6,9 +6,10 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { CKEditorModule } from 'ng2-ckeditor';
 import { CkeditorToolComponent } from './ckeditor-tool/ckeditor-tool.component';
+import { SafePipe } from './safe.pipe';
 
 @NgModule({
-  declarations: [AppComponent, CkeditorToolComponent],
+  declarations: [AppComponent, CkeditorToolComponent, SafePipe],
   imports: [BrowserModule, AppRoutingModule, CKEditorModule, FormsModule],
   providers: [],
   bootstrap: [AppComponent]

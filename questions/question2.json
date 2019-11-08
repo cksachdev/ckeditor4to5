@@ -1,9 +1,9 @@
 {
   "id": "ekstep.learning.item.read",
   "ver": "1.0",
-  "ts": "2019-11-06T09:08:22ZZ",
+  "ts": "2019-11-08T10:35:39ZZ",
   "params": {
-    "resmsgid": "18694cd2-242f-4aba-a891-4e68c4d31e11",
+    "resmsgid": "b7d8cfc1-f9ec-42b2-8327-bab280c1a1c9",
     "msgid": null,
     "err": null,
     "status": "successful",
@@ -13,7 +13,7 @@
   "result": {
     "assessment_item": {
       "itemType": "UNIT",
-      "code": "e800c320-cf18-4121-7ea8-51f989c67baa",
+      "code": "eefe82d5-4c42-1194-c6cc-9ace49504e07",
       "subject": "English",
       "qumlVersion": 0.5,
       "qlevel": "MEDIUM",
@@ -24,33 +24,28 @@
       "medium": "English",
       "templateId": "NA",
       "type": "reference",
-      "editorState": {
-        "solutions": [
-          "<ol><li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li><li>Curabitur at risus mollis, maximus sapien sit amet, posuere ante.</li><li>Sed non arcu nec velit volutpat porttitor.</li><li>Maecenas luctus leo interdum, viverra lectus nec, blandit quam.</li><li>Sed quis nibh ut lacus feugiat pharetra ullamcorper eu mauris.</li><li>Donec in est sed felis tincidunt facilisis.</li></ol>"
-        ]
-      },
-      "body": "<ol><li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li><li>Curabitur at risus mollis, maximus sapien sit amet, posuere ante.</li><li>Sed non arcu nec velit volutpat porttitor.</li><li>Maecenas luctus leo interdum, viverra lectus nec, blandit quam.</li><li>Sed quis nibh ut lacus feugiat pharetra ullamcorper eu mauris.</li><li>Donec in est sed felis tincidunt facilisis.</li></ol>",
+      "editorState": { "solutions": ["<p>Hello</p>"] },
+      "body": "<ol><li>List Question</li><li>List Question</li><li>List Question</li><li>List Question</li><li>List Question</li></ol>",
       "createdOn": "2019-11-06T09:08:19.883+0000",
       "gradeLevel": ["Class 9"],
       "appId": "dev.sunbird.portal",
-      "lastUpdatedOn": "2019-11-06T09:08:19.883+0000",
+      "lastUpdatedOn": "2019-11-08T10:35:34.430+0000",
       "textBookUnitIdentifier": "do_3128006778649477121775",
       "identifier": "do_212886272408641536119254",
       "lastStatusChangedOn": "2019-11-06T09:08:19.883+0000",
       "creator": "Content Creator",
-      "question": "<ol><li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li><li>Curabitur at risus mollis, maximus sapien sit amet, posuere ante.</li><li>Sed non arcu nec velit volutpat porttitor.</li><li>Maecenas luctus leo interdum, viverra lectus nec, blandit quam.</li><li>Sed quis nibh ut lacus feugiat pharetra ullamcorper eu mauris.</li><li>Donec in est sed felis tincidunt facilisis.</li></ol>",
+      "question": "<ol><li>List Question</li><li>List Question</li><li>List Question</li><li>List Question</li><li>List Question</li></ol>",
       "author": "Content Creator",
       "consumerId": "2eaff3db-cdd1-42e5-a611-bebbf906e6cf",
-      "solutions": [
-        "<ol><li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li><li>Curabitur at risus mollis, maximus sapien sit amet, posuere ante.</li><li>Sed non arcu nec velit volutpat porttitor.</li><li>Maecenas luctus leo interdum, viverra lectus nec, blandit quam.</li><li>Sed quis nibh ut lacus feugiat pharetra ullamcorper eu mauris.</li><li>Donec in est sed felis tincidunt facilisis.</li></ol>"
-      ],
+      "solutions": ["<p>Hello</p>"],
       "bloomsLevel": [""],
       "version": 3,
-      "versionKey": "1573031299883",
+      "versionKey": "1573209334430",
       "framework": "ekstep_ncert_k-12",
       "createdBy": "0b96635f-fe2b-4ab0-a511-05cfce8faa3f",
       "name": "vsa_ekstep_ncert_k-12",
       "topic": ["The Little Girl"],
+      "template_id": "NA",
       "category": "VSA",
       "programId": "58a52010-9cae-11e9-8179-f311bc5bf48d",
       "board": "CBSE",
