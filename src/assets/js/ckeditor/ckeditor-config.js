@@ -48,7 +48,11 @@ var mathElements = [
   'annotation',
   'annotation-xml'
 ];
-CKEDITOR.plugins.addExternal('ckeditor_wiris', 'plugins/ckeditor_wiris/');
+CKEDITOR.plugins.addExternal(
+  'ckeditor_wiris',
+  'plugins/ckeditor_wiris/',
+  'plugin.js'
+);
 CKEDITOR.editorConfig = function(config) {
   // Define changes to default configuration here.
   // For complete reference see:
@@ -64,10 +68,7 @@ CKEDITOR.editorConfig = function(config) {
       name: 'paragraph',
       items: ['NumberedList']
     },
-    {
-      name: 'document',
-      items: ['Source']
-    },
+
     {
       name: 'wiris',
       items: [
@@ -82,6 +83,10 @@ CKEDITOR.editorConfig = function(config) {
     {
       name: 'insert',
       items: ['Image']
+    },
+    {
+      name: 'document',
+      items: ['Source']
     }
   ];
   config.extraPlugins = 'ckeditor_wiris,font'; //easyimage
