@@ -5,7 +5,7 @@ export class CkeditorConfigService {
   constructor() {}
   public getConfig() {
     return {
-      customConfig: '/assets/js/ckeditor/config.js'
+      customConfig: '/assets/js/ckeditor/ckeditor-config.js'
     };
   }
 }

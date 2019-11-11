@@ -21,7 +21,7 @@ export class CkeditorToolComponent implements OnInit {
   }
 
   ngOnInit() {
-    this.editorData = CKINPUT.result.assessment_item.question;
+    // this.editorData = CKINPUT.result.assessment_item.question;
   }
 
   onChange(event: any) {
@@ -32,11 +32,13 @@ export class CkeditorToolComponent implements OnInit {
   }
   onContentDom(event: any) {
     console.log('onContentDom ::', event);
-    // this.editorData = CKINPUT.result.assessment_item.question;
+    this.editorData = CKINPUT.result.assessment_item.question;
     // this.cd.detectChanges();
   }
   onReady(event: any) {
     console.log('onReady ::', event);
+    // this.editorData = CKINPUT.result.assessment_item.question;
+
     // this.cd.detectChanges();
   }
 }
