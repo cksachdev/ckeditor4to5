@@ -1,13 +1,13 @@
-import { Component, OnInit, ChangeDetectorRef } from '@angular/core';
-import { CKINPUT } from './mock-ckeditorData';
-import { CkeditorConfigService } from '../ckeditor-config.service';
+import { Component, OnInit, ChangeDetectorRef } from "@angular/core";
+import { CKINPUT } from "./mock-ckeditorData";
+import { CkeditorConfigService } from "../ckeditor-config.service";
 
 declare var CKEDITOR: any;
 
 @Component({
-  selector: 'app-ckeditor-tool',
-  templateUrl: './ckeditor-tool.component.html',
-  styleUrls: ['./ckeditor-tool.component.scss'],
+  selector: "app-ckeditor-tool",
+  templateUrl: "./ckeditor-tool.component.html",
+  styleUrls: ["./ckeditor-tool.component.scss"],
   providers: [CkeditorConfigService]
 })
 export class CkeditorToolComponent implements OnInit {
@@ -24,30 +24,25 @@ export class CkeditorToolComponent implements OnInit {
 
   ngOnInit() {
     this.editorData = CKINPUT.result.assessment_item.question;
-    console.log('CKEDITOR', CKEDITOR);
+    // console.log('CKEDITOR::ngOnInit', CKEDITOR);
   }
-
   onChange(event: any) {
-    console.log('onChange ::', event);
-    for (var instanceName in CKEDITOR.instances) {
-      console.log('CKEDITOR::', CKEDITOR.instances[instanceName]);
-      // CKEDITOR.instances[instanceName].setData(
-      //   '<p>Some other editor data.</p>'
-      // );
-    }
+    // console.log('CKEDITOR::onChange', event);
   }
   onEditorChange(event: any) {
-    console.log('onEditorChange ::', event);
+    // console.log('CKEDITOR::onEditorChange', event);
   }
   onContentDom(event: any) {
-    console.log('onContentDom ::', event);
-    // this.editorData = CKINPUT.result.assessment_item.question;
-    // this.cd.detectChanges();
+    // console.log('CKEDITOR::onContentDom', event);
+    // if (!this.instance) {
+    //   for (var instanceName in CKEDITOR.instances) {
+    //     this.instance = CKEDITOR.instances[instanceName];
+    //     console.log('CKEDITOR::instances', this.instance);
+    //     this.instance.setData(CKINPUT.result.assessment_item.question);
+    //   }
+    // }
   }
   onReady(event: any) {
-    console.log('onReady ::', event);
-    // this.editorData = CKINPUT.result.assessment_item.question;
-
-    // this.cd.detectChanges();
+    // console.log('CKEDITOR::onReady', event);
   }
 }
